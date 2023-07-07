@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ToDoList/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "toDoList">
+        <div>
+            <h2>Hight</h2>
+        </div>
+
+        <div class = "tasks">
+            <form id = "hightCheck">
+                <input type = "text" class = "writeTask" value = "Горящие задачи">
+                <button class = "add"> ㅤ </button>
+            </form>
+        </div>
+
+        <div class = "hightTasks">
+            <!-- Первая задача -->
+            <div class = "tasks">
+                <input class = "checkbox" type = "checkbox"> 
+                <p class = "textTaks" > Что-то, наверное очень важное. Но ты этого не узнаешь.
+                А также тут будет очень много текста, если у кого-то очень большие задачи.
+                </p>
+                <button class = "del" > ㅤ </button>
+            </div>
+            <!-- Вторая задача -->
+            <div class = "tasks">
+                <input class = "checkbox" type = "checkbox"> 
+                <p class = "textTaks"> Доделать дизайн ToDo листа 
+                </p>
+                <button class = "del" > ㅤ </button>
+            </div>
+            <!-- Третья задача -->
+            <div class = "tasks">
+                <input class = "checkbox" type = "checkbox"> 
+                <p class = "textTaks" > Удали меня, пожалуйста. Я устал тут быть. 
+                </p>
+                <button class = "del" > ㅤ </button>
+            </div>
+
+        </div>
+
+            <div>
+                <div>
+                    <h2>Low</h2>
+                </div>
+            
+            
+                <div class = "tasks">
+                    <form id = "lowCheck">
+                        <input type ="text" class = "writeTask" value = "Задачи на лайте">
+                        <button class = "add"> ㅤ </button>
+                    </form>
+                </div>
+
+                <div class = "lowTasks">
+                    <!-- Первая задача -->
+                    <div class = "tasks">
+                        <input class = "checkbox" type = "checkbox"> 
+                        <p class = "textTaks" > Самые бесполезные задачи. Убирай их вообще на второй. 
+                        А также тут будет очень много текста, если у кого-то очень большие задачи.
+                        </p>
+                        <button class = "del" > ㅤ </button>
+                    </div>
+                </div>
+            </div>
+    </div> 
+    
+   <script src = "js/toDoForms.js"></script>
+</body>
+</html>
